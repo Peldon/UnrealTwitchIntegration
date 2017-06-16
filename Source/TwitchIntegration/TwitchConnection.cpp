@@ -1,7 +1,7 @@
 // Copyright 2017 Gerald Schenke
 
 #include "TwitchConnection.h"
-
+#include "Networking.h"
 #include <string>
 
 

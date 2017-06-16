@@ -2,13 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "Networking.h"
-#include "TimerManager.h"
-
 #include "TwitchConnection.generated.h"
 
+class FSocket;
+struct FTimerHandle;
 
 /**
  * 
