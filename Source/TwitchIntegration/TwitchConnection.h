@@ -8,7 +8,12 @@ class FSocket;
 struct FTimerHandle;
 
 /**
+ * Example class to connect to the twitch irc server, join a channel, receive and send messages.
  * 
+ * Add "Sockets" and "Networking" to [projectname].Build.cs
+ * and call for example from your GameMode:
+ * TwitchConnection = NewObject<UTwitchConnection>();
+ * TwitchConnection->Connect(GetWorld(), "[twitch user name]", "[your oauth (with oauth:)]", "[the channel to join (without #)]");
  */
 UCLASS()
 class TWITCHINTEGRATION_API UTwitchConnection : public UObject
